@@ -3,7 +3,6 @@
 namespace app\models;
 
 use Exception;
-use SimpleXMLElement;
 use Yii;
 use yii\base\Model;
 

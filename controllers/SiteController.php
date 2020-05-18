@@ -74,7 +74,6 @@ class SiteController extends Controller
 
             $file->file = UploadedFile::getInstance($file, 'file');
 
-
             if (!empty($file->file)) {
 
                 $newFile = $file->upload();
@@ -84,7 +83,6 @@ class SiteController extends Controller
                     return $this->refresh();
                 }
             }
-
         }
 
         return $this->render('index', [
